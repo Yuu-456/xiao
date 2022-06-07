@@ -384,7 +384,6 @@ def removesudo(update: Update, context: CallbackContext) -> str:
     else:
         message.reply_text("𝚃𝚑𝚒𝚜 𝚞𝚜𝚎𝚛 𝚒𝚜 𝚗𝚘𝚝 𝚊 𝙷𝙰𝚂𝙷𝙸𝚁𝙰!")
         return ""
--
 
 
 @sudo_plus
