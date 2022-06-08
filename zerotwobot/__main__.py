@@ -82,7 +82,7 @@ buttons = [
     [
         InlineKeyboardButton(
             "Support",
-            "https://t.me/genshinvoid"),
+            "https://t.me/demonxsupport"),
         InlineKeyboardButton(
             "Network",
             "https://t.me/VoidxNetwork"),
@@ -94,17 +94,17 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hello There Xiao Here Again.
+Hello There Douma Here Again.
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ \
-𝘎𝘢𝘮𝘦 𝘛𝘩𝘦𝘮𝘦𝘥 𝘚𝘶𝘱𝘦𝘳𝘣𝘰𝘵
+𝘈𝘯𝘪𝘮𝘦 𝘛𝘩𝘦𝘮𝘦𝘥 𝘚𝘶𝘱𝘦𝘳𝘣𝘰𝘵
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡                
 Main commands:
  • /help: To Know More About Me.
  • /start: To Check If Am Working Or Nah
 ━━━━━━━━━━━━━━━━━━━━━━━━
-𝙘𝙤𝙣𝙦𝙪𝙚𝙧𝙞𝙣𝙜 𝙙𝙚𝙢𝙤𝙣𝙨 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞 𝙙𝙤.
+𝙘𝙤𝙣𝙦𝙪𝙚𝙧𝙞𝙣𝙜 𝙝𝙪𝙢𝙖𝙣𝙨 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞 𝙙𝙤.
 ━━━━━━━━━━━━━━━━━━━━━━━━  
-ʀᴇᴘᴏʀᴛ ɪssᴜᴇs ᴀᴛ @ɢᴇɴsʜɪɴᴠᴏɪᴅ
+ʀᴇᴘᴏʀᴛ ɪssᴜᴇs ᴀᴛ @DEMONXSUPPORT
 
 
 And the following:
@@ -113,7 +113,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ZEROTWO_IMG = "https://telegra.ph/file/fe5b878c3298b9bc49847.jpg"
+ZEROTWO_IMG = "https://telegra.ph/file/ca23a785010f7e0b2dc87.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @silver_king \
@@ -222,11 +222,11 @@ def start(update: Update, context: CallbackContext):
                 ZEROTWO_IMG,
                 caption=escape_markdown(f"""                
                  ʜᴇʏ ᴛʜᴇʀᴇ {first_name}!. \
-                \nᴀᴍ {context.bot.first_name}, ᴀɴ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. \
+                \nᴀᴍ {context.bot.first_name}, ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. \
                 \n ━━━━━━━━━━━━━━━━━━━━━━━━  \
-                \n 𝘊𝘰𝘯𝘲𝘶𝘦𝘳𝘰𝘳 𝘰𝘧 𝘋𝘦𝘮𝘰𝘯𝘴 \
+                \n 𝘊𝘰𝘯𝘲𝘶𝘦𝘳𝘰𝘳 𝘰𝘧 𝘏𝘶𝘮𝘢𝘯𝘴 \
                 \n ━━━━━━━━━━━━━━━━━━━━━━━━  \
-                \n ᴄʟɪᴄᴋ ᴏɴ /ʜᴇʟᴘ ɪғ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ  ᴀʙᴏᴜᴛ ᴍᴇ, ʜᴍᴘʜ. \
+                \n ᴄʟɪᴄᴋ ᴏɴ /help ɪғ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ  ᴀʙᴏᴜᴛ ᴍᴇ, ʜᴍᴘʜ. \
                 \n ᴘᴏᴡᴇʀᴇᴅ ʙʏ: ᴠᴏɪᴅ! \
                 \n ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
                 """),
@@ -244,7 +244,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="【Support】",
-                            url="https://t.me/genshinvoid",
+                            url="https://t.me/demonxsupport",
                         ),
 
                     ],
@@ -623,7 +623,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@genshinvoid", "𝙸 𝙰𝙼 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙲𝙾𝙽𝚀𝚄𝙴𝚁 𝙳𝙴𝙼𝙾𝙽𝚂")
+            dispatcher.bot.sendMessage(f"@demonxsupport", "𝙸 𝙰𝙼 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙲𝙾𝙽𝚀𝚄𝙴𝚁 𝙷𝚄𝙼𝙰𝙽𝚂")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isn't able to send message to support_chat, go and check!",
