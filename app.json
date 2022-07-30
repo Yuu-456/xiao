@@ -21,32 +21,32 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": "5390169778:AAH8qJZUTjjzdw_ndUsJzSa4tdi3ig6Rhsc"
+         "value": "5461378728:AAG-XqyojqRfLMW6hDMh7Y8L-n40XpAANeA"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "8916535"
+         "value": "18998493"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "a885225ee671399043c2e3e4c18438f5"
+         "value": "668fc3f813baa2b4123a6bb373549427"
       },
 
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "998589443"
+         "value": "5320639253"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Redeye_Ghoul"
+         "value": "ItadoriHanako_08"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "naruto_robot_support"
+         "value": "itadori_bot_support"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -71,12 +71,12 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "2099251605 965613832 5259427402 5109376623 5147844955 5205241880"
+         "value": "5320639253 1719179612 5508585593 5514985164"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "YGzNREWZTNGc8wC1DuELXfgwMH0TPuyMqdXVdTeETJB0AwdprFgFIL2MNpPvP1ie"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -90,7 +90,7 @@
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "5288203109 5056177020 976545006"
+         "value": ""
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
