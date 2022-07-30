@@ -113,7 +113,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ZEROTWO_IMG = "https://telegra.ph/file/ca23a785010f7e0b2dc87.jpg"
+ZEROTWO_IMG = "https://telegra.ph/file/a5f9181cb8527ad2846b6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @silver_king \
