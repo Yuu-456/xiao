@@ -75,19 +75,27 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me",
+            text="【Aᴅᴅ Miyamura Tᴏ Yᴏᴜʀ GC】",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=True",
         ),
     ],
     [
         InlineKeyboardButton(
-            "Support",
-            "https://t.me/demonxsupport"),
+            " • Sᴜᴘᴘᴏʀᴛ • ",
+            "https://t.me/itadori_bot_support"),
         InlineKeyboardButton(
-            "Network",
-            "https://t.me/VoidxNetwork"),
-
-        
+            " • Network • ",
+            "https://t.me/frostxNetwork"),
+        InlineKeyboardButton(
+             " • Updates  • ",
+             "https://t.me/izumixupdates",
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+              text="【HELP】",
+              callback_data=f"help_back",    
+        ), 
     ]
 ] 
 
