@@ -235,7 +235,7 @@ def start(update: Update, context: CallbackContext):
                 \n 𝘊𝘰𝘯𝘲𝘶𝘦𝘳𝘰𝘳 𝘰𝘧 𝘏𝘶𝘮𝘢𝘯𝘴 \
                 \n ━━━━━━━━━━━━━━━━━━━━━━━━  \
                 \n ᴄʟɪᴄᴋ ᴏɴ /help ɪғ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ  ᴀʙᴏᴜᴛ ᴍᴇ, ʜᴍᴘʜ. \
-                \n ᴘᴏᴡᴇʀᴇᴅ ʙʏ: ᴠᴏɪᴅ! \
+ 
                 \n ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
                 """),
                 parse_mode=ParseMode.MARKDOWN,
